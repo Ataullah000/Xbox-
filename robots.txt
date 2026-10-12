@@ -1,0 +1,91 @@
+# Robots.txt for Ataullah Al Mahmud Portfolio
+# https://ataullah000.github.io/ataullah-portfolio/
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /about.html
+Allow: /vision.html
+Allow: /projects.html
+Allow: /skills.html
+Allow: /journey.html
+Allow: /certificates.html
+Allow: /contact.html
+Allow: /style.css
+Allow: /main.js
+Allow: /universe.js
+Allow: /favicon.svg
+Allow: /sitemap.xml
+
+# Block query noise and non-content
+Disallow: /*?*
+Disallow: /cdn-cgi/
+
+# Major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# AI / Answer-engine crawlers (AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Crawl-delay for polite bots (optional soft signal)
+User-agent: *
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://ataullah000.github.io/ataullah-portfolio/sitemap.xml
